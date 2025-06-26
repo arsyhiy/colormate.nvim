@@ -1,12 +1,48 @@
+local hslutil = require("my-theme.hsl")
+local hsl = hslutil.hslToHex
+local util = require("my-theme.utils")
+
+
+
+
+
+
+
+local M = {}
+
+--@class Palette
+M.default = {
+
+
+}
+
+--@return Colorscheme
+
+
+
+-- Color Palette
+--@class ColorScheme: Palette
+
+
+
+
+
+
+
+
+
+
+
+
 local config = require 'my-theme.config'
 
 local colorscheme = {
   standardWhite = '#ffffff',
-  standardBlack = '#1e1e1e',
+  standardBlack = '#282828',
 }
 
 if vim.o.background == 'light' then
-  colorscheme.editorBackground = config.transparent and 'none' or '#ffffff'
+  colorscheme.editorBackground = config.transparent and 'none' or '#212121'
   colorscheme.sidebarBackground = '#dddddd'
   colorscheme.popupBackground = '#f6f6f6'
   colorscheme.floatingWindowBackground = '#e0e0e0'
@@ -39,7 +75,7 @@ if vim.o.background == 'light' then
   colorscheme.foregroundEmphasis = '#000000'
   colorscheme.terminalGray = '#333333'
 else
-  colorscheme.editorBackground = config.transparent and 'none' or '#212121'
+  colorscheme.editorBackground = config.transparent and 'none' or '#282828'
   colorscheme.sidebarBackground = '#1a1a1a'
   colorscheme.popupBackground = '#292929'
   colorscheme.floatingWindowBackground = '#383838'
