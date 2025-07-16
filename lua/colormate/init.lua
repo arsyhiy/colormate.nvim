@@ -31,20 +31,20 @@ end
 local function set_groups()
   local bg = config.transparent and 'NONE' or colorscheme.editorBackground
   local diff_add =
-    utils.shade(colorscheme.successText, 0.5, colorscheme.editorBackground)
+    utils.shade(colorscheme.successText, 0.40, colorscheme.editorBackground)
   local diff_delete =
-    utils.shade(colorscheme.syntaxError, 0.5, colorscheme.editorBackground)
+    utils.shade(colorscheme.syntaxError, 0.40, colorscheme.editorBackground)
   local diff_change =
-    utils.shade(colorscheme.syntaxFunction, 0.5, colorscheme.editorBackground)
+    utils.shade(colorscheme.syntaxFunction, 0.40, colorscheme.editorBackground)
   local diff_text =
-    utils.shade(colorscheme.warningEmphasis, 0.5, colorscheme.editorBackground)
+    utils.shade(colorscheme.warningEmphasis, 0.40, colorscheme.editorBackground)
 
   local groups = {
     -- base
     Normal = { fg = colorscheme.mainText, bg = bg },
     LineNr = { fg = colorscheme.lineNumberText },
     ColorColumn = {
-      bg = utils.shade(colorscheme.linkText, 0.5, colorscheme.editorBackground),
+      bg = utils.shade(colorscheme.linkText, .040, colorscheme.editorBackground),
     },
     Conceal = {},
     Cursor = { fg = colorscheme.editorBackground, bg = colorscheme.mainText },
@@ -89,7 +89,7 @@ local function set_groups()
     PmenuSbar = {
       bg = utils.shade(
         colorscheme.syntaxFunction,
-        0.5,
+        0.30,
         colorscheme.editorBackground
       ),
     },
