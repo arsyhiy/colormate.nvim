@@ -6,12 +6,9 @@ local utils = require 'my-theme.utils'
 local theme = {}
 
 
-local hl = vim.api.nvim_set_hl
-local colors = require("my-theme.colors")
 
 local function set_terminal_colors()
-  hl(0, "Normal",        { fg = colors.fg, bg = colors.bg })
-  --vim.g.terminal_color_0 = colorscheme.editorBackground
+  vim.g.terminal_color_0 = colorscheme.editorBackground
   vim.g.terminal_color_1 = colorscheme.syntaxError
   vim.g.terminal_color_2 = colorscheme.successText
   vim.g.terminal_color_3 = colorscheme.warningEmphasis
@@ -27,12 +24,12 @@ local function set_terminal_colors()
   vim.g.terminal_color_13 = colorscheme.syntaxError
   vim.g.terminal_color_14 = colorscheme.stringText
   vim.g.terminal_color_15 = colorscheme.commentText
-  --vim.g.terminal_color_background = colorscheme.editorBackground
-  --vim.g.terminal_color_foreground = colorscheme.mainText
+  vim.g.terminal_color_background = colorscheme.editorBackground
+  vim.g.terminal_color_foreground = colorscheme.mainText
 end
 
 local function set_groups()
-  local bg = config.transparent and 'NONE' or colors.bg
+  local bg = config.transparent and 'NONE' or colorscheme.editorBackground
   local diff_add =
     utils.shade(colorscheme.successText, 0.5, colorscheme.editorBackground)
   local diff_delete =
