@@ -1,8 +1,8 @@
-local bufferline = require 'my-theme.integrations.bufferline'
-local cmp = require 'my-theme.integrations.cmp'
-local colorscheme = require 'my-theme.colorscheme'
-local config = require 'my-theme.config'
-local utils = require 'my-theme.utils'
+local bufferline = require 'colormate.integrations.bufferline'
+local cmp = require 'colormate.integrations.cmp'
+local colorscheme = require 'colormate.colorscheme'
+local config = require 'colormate.config'
+local utils = require 'colormate.utils'
 local theme = {}
 
 
@@ -369,7 +369,7 @@ end
 function theme.colorscheme()
   if vim.version().minor < 8 then
     vim.notify(
-      'Neovim 0.8+ is required for my-theme colorscheme',
+      'Neovim 0.8+ is required for colormate colorscheme',
       vim.log.levels.ERROR,
       { title = 'Min Theme' }
     )
@@ -383,7 +383,7 @@ function theme.colorscheme()
 
   vim.g.VM_theme_set_by_colorscheme = true
   vim.o.termguicolors = true
-  vim.g.colors_name = 'my-theme'
+  vim.g.colors_name = 'colormate'
 
   set_terminal_colors()
   set_groups()
