@@ -8,3 +8,5 @@ this is my personal color theme and he will be under development about a year
 - adding image for this theme 
 - continue development a good palette
 - just continue develop this theme
+- adding docs/
+- adding a normal how to install  
