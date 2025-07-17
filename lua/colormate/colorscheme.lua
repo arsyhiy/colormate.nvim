@@ -24,11 +24,11 @@ local colorscheme = {
 
   colorscheme.syntaxError = '#f51911'
   colorscheme.syntaxFunction = '#79b8ff'
-  colorscheme.warningText = '#f51911'
+  colorscheme.warningText = '#d69f1e'
   colorscheme.syntaxKeyword = '#b392f0'
   colorscheme.linkText = '#10e38f'
   colorscheme.stringText = '#7d33cc' --under devolempent
-  colorscheme.warningEmphasis = '#cd9731'
+  colorscheme.warningEmphasis = '#d69f1e'
   colorscheme.successText = '#22863a'
   colorscheme.errorText = '#f51911'
   colorscheme.specialKeyword = '#d3869b'
