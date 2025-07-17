@@ -67,13 +67,14 @@ local function set_groups()
     Folded = { fg = colorscheme.mainText, bg = colorscheme.popupBackground },
     FoldColumn = { link = 'SignColumn' },
     IncSearch = {
-      bg = utils.mix(
+    bg = utils.mix(
         colorscheme.syntaxFunction,
         colorscheme.editorBackground,
         math.abs(0.30)
-      ),
-      fg = colorscheme.editorBackground,
+    ),
+    fg = colorscheme.editorBackground,
     },
+
     Substitute = { link = 'IncSearch' },
     CursorLineNr = { fg = colorscheme.commentText },
     MatchParen = { fg = colorscheme.syntaxError, bg = bg },
@@ -111,7 +112,7 @@ local function set_groups()
       bg = colorscheme.editorBackground,
       fg = colorscheme.emphasisText,
     },
-    Search = { bg = utils.shade(colorscheme.stringText, 0.40, colorscheme.bg) },
+    Search = { bg = utils.shade(colorscheme.stringText, 0.40, colorscheme.stringText) }, --bg
     SpellBad = { undercurl = true, sp = colorscheme.syntaxError },
     SpellCap = { undercurl = true, sp = colorscheme.syntaxFunction },
     SpellLocal = { undercurl = true, sp = colorscheme.syntaxKeyword },

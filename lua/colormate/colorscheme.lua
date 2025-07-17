@@ -1,38 +1,36 @@
-
-
 local colorscheme = {
   standardWhite = '#d4d4d4',
   standardBlack = '#282828',
 }
 
-  colorscheme.editorBackground =  '#1e1e1e'
-  colorscheme.sidebarBackground = '#1d2021'
-  colorscheme.popupBackground = '#292929'
-  colorscheme.floatingWindowBackground = '#383838'
-  colorscheme.menuOptionBackground = '#282828'
+  colorscheme.editorBackground =  '#1a1f14'-- background final version
+  colorscheme.sidebarBackground ='#2d381e'-- '#1d2021' side bar litarily. final version
+  colorscheme.popupBackground = '#1a1c17'-- final version
+  colorscheme.floatingWindowBackground = '#1a1c17'-- final version
+  colorscheme.menuOptionBackground = '#85adad'-- отражается на statusbar. final version
 
-  colorscheme.mainText = '#20C20E'--'#c1c1c1' hacking green
-  colorscheme.emphasisText = '#fafafa'
+  colorscheme.mainText = '#6aad49'-- '#c1c1c1' hacking green. final version
+  colorscheme.emphasisText = '#c7d1d1'
   colorscheme.commandText = '#e0e0e0'
-  colorscheme.inactiveText = '#484848'
-  colorscheme.disabledText = '#848484'
-  colorscheme.lineNumberText = '#727272'
-  colorscheme.selectedText = '#d4d4d4'
-  colorscheme.inactiveSelectionText = '#ebdbb2'
+  colorscheme.inactiveText = '#c7d1d1'
+  colorscheme.disabledText = '#c7d1d1'
+  colorscheme.lineNumberText = '#d1c7c7' -- номер строки кода. final version
+  colorscheme.selectedText = '#c7d1d1' -- выделенная строка кода
+  colorscheme.inactiveSelectionText = '#c7d1d1' -- final version
 
-  colorscheme.windowBorder = '#ffffff' -- чисто белая полоса
+  colorscheme.windowBorder = '#282924' -- final version
   colorscheme.focusedBorder = '#444444'
   colorscheme.emphasizedBorder = '#363636'
 
-  colorscheme.syntaxError = '#cc241d'
+  colorscheme.syntaxError = '#f51911'
   colorscheme.syntaxFunction = '#79b8ff'
-  colorscheme.warningText = '#ff9800'
+  colorscheme.warningText = '#f51911'
   colorscheme.syntaxKeyword = '#b392f0'
-  colorscheme.linkText = '#9db1c5'
-  colorscheme.stringText = '#b8bb26'
+  colorscheme.linkText = '#10e38f'
+  colorscheme.stringText = '#7d33cc' --under devolempent
   colorscheme.warningEmphasis = '#cd9731'
   colorscheme.successText = '#22863a'
-  colorscheme.errorText = '#cd3131'
+  colorscheme.errorText = '#f51911'
   colorscheme.specialKeyword = '#d3869b'
   colorscheme.commentText = '#6b737c'
   colorscheme.syntaxOperator = '#bbbbbb'
