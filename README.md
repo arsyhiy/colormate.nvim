@@ -9,7 +9,8 @@ this is my personal color theme and he will be under development about a year
 - continue development a good palette
 - just continue develop this theme
 - adding docs/
-- adding a normal how to install  
+- adding a normal how to install
+- make universal pallete of this theme
 
 # NOTES for me:
 - updates only on sundays
