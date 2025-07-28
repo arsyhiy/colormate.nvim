@@ -11,6 +11,9 @@ this is my personal color theme and he will be under development about a year
 - adding docs/
 - adding a normal how to install  
 
+# NOTES for me:
+- updates only on sundays
+
 
 # NOTE for me in russian
 Надо сделать тему более читаймую сделать синтаксис более интересным для меня.
