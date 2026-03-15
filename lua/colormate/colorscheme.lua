@@ -4,6 +4,7 @@ local colorscheme = {
 }
 
 colorscheme.editorBackground = "#1a1f14"
+
 colorscheme.sidebarBackground = "#2d381e"
 colorscheme.popupBackground = "#1a1c17"
 colorscheme.floatingWindowBackground = "#1a1c17"
